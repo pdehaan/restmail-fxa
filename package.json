@@ -1,0 +1,34 @@
+{
+  "name": "restmail-fxa",
+  "description": "A basic Hapi server which auto approves @restmail.net addresses for Firefox Accounts",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/restmail-fxa/issues"
+  },
+  "homepage": "https://github.com/pdehaan/restmail-fxa",
+  "keywords": [
+    "restmail",
+    "fxa"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdehaan/restmail-fxa.git"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "standard"
+  },
+  "devDependencies": {
+    "standard": "3.8.0"
+  },
+  "dependencies": {
+    "fxa-js-client": "0.1.27",
+    "hapi": "8.4.0",
+    "promise": "7.0.1",
+    "request-promise": "0.4.2",
+    "restmail-client": "1.0.0"
+  }
+}
